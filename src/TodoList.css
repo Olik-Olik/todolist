@@ -1,0 +1,96 @@
+.todoListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    width: 165px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-shadow: #61dafb 1px 1px 1px;
+    box-shadow: 0 -100px 100px -120px #45959a inset;
+}
+.todoListMain .header button {
+    text-shadow: #61dafb 1px 1px 1px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0;
+    background-color: darkgray;
+    color: #FFF;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+.todoListMain .header button:hover {
+    background-color: grey;
+    cursor: pointer;
+    border: 1px solid grey;
+    background: linear-gradient( yellow, #61dafb, red);
+    animation: background 3s infinite alternate;
+
+}
+.todoListMain .theList {
+    list-style: none;
+    padding-left: 0;
+   /* width: 250px;*/
+    cursor: pointer;
+
+}
+form {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    color: darkgray;
+    text-shadow: red 2px 2px 2px;
+    font-size: 50px;
+    align-content: center;
+}
+.todoListMain  {
+    text-shadow: grey 2px 2px 2px;/*тень для букв вводимых*/
+    color: #333; /*цвет букв вводимых*/
+    background-color: lightblue;
+    padding: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.todoListMain .theList li:hover{
+    background: #61dafb;
+    border: 1px solid darkgray;
+    border-radius: 30px;
+}
+.theList li {
+    width: 70%;
+    box-shadow: 0 -100px 100px -120px #45959a inset;
+    border-radius: 30px;
+    color: #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+
+.todoListMain{
+    background: linear-gradient( yellow, #61dafb, greenyellow);
+    animation: background 7s infinite alternate;
+
+}
+.div{  display: flex;
+    position: relative;}
+
+.containerExit{
+    display: flex;
+}
+.containerAllExit{
+    display: flex;
+    flex-direction: column;
+}
+.theAllList{
+    display: flex;
+    flex-direction: column;
+}
